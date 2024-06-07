@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://wallpaperaccess.com/full/4123423.jpg); 
+    background-repeat: no-repeat;         
+    background-size: cover;
+    /* background-image: linear-gradient(to right top, #090d3b, #060f4a, #041059, #031069, #060f78, #270e82, #3e0a8b, #520394, #720099, #8e009c, #a9009f, #c206a1);
+     */
+}
+
+input[type='tel'],input[type='text'],input[type='email'],input[type='date'],select,textarea{
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 10px;
+    border-color: rgb(0, 74, 74);
+    border-width:  .2em;
+    border-radius: 5px;
+}
+sup{
+    color: red;
+}
+
+#container{
+   padding: 10px 20px;
+   width: 450px;margin-top: auto;
+   background-color: rgb(255, 255, 255);
+   filter: opacity(70%);
+   font-family: sans-serif;
+
+}
+input[type='radio']{
+    
+    accent-color: rgb(128, 0, 43);;
+}
+.checkbox{
+    accent-color: rgb(128, 0, 43);
+   
+    
+}
+.block-items{
+    display: block;
+   padding: .5em;
+}
+
+Button{
+    background-color: aqua;
+    margin: 10px 0px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 550;
+}

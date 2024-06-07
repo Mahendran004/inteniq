@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div id="container">
+        <h1 style="font-family: Rubik Doodle Shadow; font-size: 50px; text-align: center;">LOGIN</h1>
+         <form>
+            <label for="name" class="block-items">Name <sup>&#42;</sup></label>
+            <input type="text" name="Name" id="name" class="block-items">
+            <input type="email" name="'email" id="email" class="block-items">
+            <label for="DOB" class="block-items">DOB: <sup>&#42;</sup></label>
+            <input type="date" id="DOB" name="'Date of Birth" class="block-items">
+            <label class="block-items">Gender: <sup>&#42;</sup></label>
+            <input type="radio"  id="male" name="male-or-female" value="'Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="male-or-female" value="'Female">
+            <label for="female">Female</label>
+            <label for="mobilenumber" class="block-items">Phone Number : <sup>&#42;</sup></label>
+            <input type="tel" class="block-items" id="mobilenumber"   name="Mobile Number">
+            <label for="address" class="block-items" >Address : <sup>&#42;</sup></label>
+            <textarea id="address" placeholder="please enter your  address here........." rows="5"></textarea>
+            <label for="occupation" class="block-items">Occupation: <sup>&#42;</sup></label>
+            <select class="block-items" id="occupation">
+                <option value=""></option>
+                <option value="student">Student</option>
+                <option value="postgraduate">Post Graduate</option>
+                <option value="graduate">Graduate</option>
+            </select>
+            <label  class="block-items">Skills: <sup>&#42;</sup></label>
+            <input type="checkbox" class="checkbox" name="checking"><label class="checkbox">C </label><br>
+            <input type="checkbox" class="checkbox" name="checking"><label class="checkbox">Python </label><br>
+            <input type="checkbox" class="checkbox" name="checking"><label class="checkbox"> FrontEnd</label><br>
+            <input type="checkbox" class="checkbox" name="checking"><label class="checkbox"> BackEnd</label><br>
+            <input type="checkbox" class="checkbox" name="checking"><label class="checkbox">Cloud Computing</label><br>
+            <label for="comments" class="block-items">Comments : </label>
+            <textarea id="comments" placeholder="Comments here..........." rows="5"></textarea> <br>
+            <button type="reset">Reset</button>
+            <button type="'submit" onclick="validateForm(event)" style="float: right;">Submit</button>
+            
+         </form>
+    </div>
+    <script src="htmlscript.js">
+        
+    </script>
+</body>
+</html>    

@@ -1,0 +1,34 @@
+.calcuht {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 4px solid #cccccc00;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 40px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #7a85aee2;
+  }
+  
+  button:hover {
+    background-color: #e0e0e000;
+  }
